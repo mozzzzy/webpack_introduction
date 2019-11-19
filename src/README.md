@@ -1,11 +1,6 @@
 # Webpack tutorial
 19.11.2019
 
-## Install webpack
-```sh
-$ npm install webpack
-```
-
 ## Bundle javascript files
 ### Source code (javascript)
 * entry.js
@@ -35,7 +30,7 @@ module.exports = "It works!!";
 
 ### Install webpack
 ```sh
-$ npm install webpack
+$ npm install webpack webpack-cli --save-dev
 ```
 
 ### Bundle
@@ -115,7 +110,7 @@ document.write(require("./content.js"));
 
 ### Install loader
 ```sh
-$ npm install css-loader style-loader
+$ npm install css-loader style-loader --save-dev
 ```
 
 ### Bundle
