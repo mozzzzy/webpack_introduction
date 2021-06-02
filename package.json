@@ -12,6 +12,7 @@
   "dependencies": {},
   "devDependencies": {
     "css-loader": "^3.2.0",
+    "postcss": ">=8.2.10",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
